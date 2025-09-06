@@ -3,7 +3,7 @@ import pandas as pd
 
 # Load your pupil counts and percentages
 # (replace with your real CSV paths or DataFrames)
-results = pd.read_csv("Results_2019_2024.csv")  # your % pass rates by Year & Ethnicity
+results = pd.read_csv("Data/Results_2019_2024.csv")  # your % pass rates by Year & Ethnicity
 
 # Merge the two
 merged = results.merge(pupils, on=["Year","Ethnicity"], how="left")
