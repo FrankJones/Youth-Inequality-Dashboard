@@ -3,7 +3,6 @@ import pandas as pd
 
 # Load your pupil counts and percentages
 # (replace with your real CSV paths or DataFrames)
-pupils = pd.read_csv("PupilCounts_2019_2023_reversedGraphOrder.csv")
 results = pd.read_csv("Results_2019_2024.csv")  # your % pass rates by Year & Ethnicity
 
 # Merge the two
